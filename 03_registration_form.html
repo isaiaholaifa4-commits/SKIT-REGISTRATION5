@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project 3: Club Registration Form</title>
+</head>
+<body background="leftfield-corn-0feWcMBMYcU-unsplash.jpg">
+<!-- Learn: form, label, input types, select, textarea, button -->
+<h1>📝📝content Creating Registration Class📝📝</h1>
+<button><a href="progect2.html">home page</a></button>
+<form action="#" method="post">
+  <fieldset>
+    <legend>About You</legend>
+    <p><label>Full name: <input type="text" name="name" required></label></p>
+    <p><label>Email: <input type="email" name="email" required></label></p>
+    <p><label>Date of birth: <input type="date" name="dob"></label></p>
+    <p><label>Age: <input type="number" name="age" min="8" max="25"></label></p>
+  </fieldset>
+  <fieldset>
+    <legend>Your Choices</legend>
+    <p>Gender:
+      <label><input type="radio" name="gender" value="f"> Female</label>
+      <label><input type="radio" name="gender" value="m"> Male</label>
+    </p>
+    <p><label>Class:
+      <select name="class">
+        <option>JSS 3</option>
+        <option>SS 1</option>
+        <option>SS 2</option>
+        <option>SS 3</option>
+      </select></label></p>
+    <p>I am interested in:<br>
+      <label><input type="checkbox" name="i" value="SKIT"> SKIT</label>
+      <label><input type="checkbox" name="i" value="GAMEING"> GAMEING</label>
+      <label><input type="checkbox" name="i" value="AI"> AI</label>
+    </p>
+    <p><label>Why do you want to join?<br>
+      <textarea name="why" rows="4" cols="40"></textarea></label></p>
+    <p><label>Favourite colour: <input type="color" name="colour"></label></p>
+  </fieldset>
+  <p><button type="submit">Register 🚀</button> <button type="reset">Clear</button></p>
+</form>
+<!-- Challenge: add a "Phone number" field using type="tel". -->
+</body>
+</html>
